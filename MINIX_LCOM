@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Hello World!"
+konsole --noclose -e ssh lcom@127.0.0.1 -p 2222 &
+#konsole --noclose -e tail -f /var/log/messages &
